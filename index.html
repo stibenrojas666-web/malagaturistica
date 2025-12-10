@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Málaga - Turismo</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Tamaño y comportamiento de imágenes del carrusel */
+        .carousel-item img {
+            height: 350px;
+            object-fit: cover;
+            }
+
+        /* Estilo de barra bonita */
+        .barra {
+            background: #3f704d; /* Color  */  
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar barra px-4">
+        <span class="navbar-brand text-white fw-bold">Málaga</span>
+
+        <div class="ms-auto">
+            <a href="malagaturistica2.html" class="btn btn-light fw-bold">Ver Sitios</a>
+        </div>
+    </nav>
+
+
+    <div class="container mt-4">
+
+        <h1 class="text-center mb-4">Bienvenido a Málaga</h1>
+
+        <!-- CARRUSEL PRINCIPAL -->
+        <div id="carruselPrincipal" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="./assets/Parque Principal.jpg" class="d-block w-100" alt="imagen 1">
+
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/alameda4.jpg" class="d-block w-100" alt="imagen 2">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/málaga2.jpg" class="d-block w-100" alt="imagen 3">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/alameda.jpg" class="d-block w-100" alt="imagen 4">
+                </div>
+
+            </div>
+<div class="carrousel-caption text-center ">
+    <h6>Málaga Santander</h6>
+    <p>Capital de la provincia de García Rovira</p>
+</div>
+            <!-- BOTONES DEL CARRUSEL -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselPrincipal" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselPrincipal" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+
+        <div class="row align-items-center mb-5">
+
+            <div class="col-md-6">
+                <h1 class="fw-bold">Sobre Málaga</h1>
+                <p class="fs-5">
+                    Málaga, capital de la hermosa provincia García Rovira, es conocida por su arquitectura colonial,
+                    paisajes naturales impresionantes y su gente amable. Un municipio lleno de historia,
+                    cultura y tradición, ubicado en el corazón del oriente colombiano.
+                </p>
+            </div>
+
+            <!-- IMAGEN DERECHA -->
+            <div class="col-md-6 text-center">
+                <img src="./assets/alameda3.jpg" class="img-fluid rounded shadow" alt="Información de Málaga">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
